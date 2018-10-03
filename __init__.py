@@ -6,14 +6,14 @@ import requests
 from os import path
 
 
-__iid__ = "PythonInterface/v0.2"
+__iid__ = "PythonInterface/v0.1"
 __prettyname__ = "Stackoverflow"
 __version__ = "0.1"
 __trigger__ = ".so "
 __author__ = "Bharat kalluri"
 __dependencies__ = ["requests"]
 
-stackoverflow_api = "https://api.stackexchange.com/2.2/search/advanced?pagesize=20&order=desc&sort=activity&q={}" \
+stackoverflow_api = "https://api.stackexchange.com/2.2/search/advanced?pagesize=20&order=desc&sort=relevance&q={}" \
                     "&site=stackoverflow"
 
 icon_folder = "{}/icons/".format(path.dirname(__file__))
