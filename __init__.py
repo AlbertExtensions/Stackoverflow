@@ -1,12 +1,12 @@
+"""Search Stackoverflow"""
 import time
 
-from albertv0 import *
 import json
 import requests
+from albertv0 import *
 from os import path
 
-
-__iid__ = "PythonInterface/v0.1"
+__iid__ = "PythonInterface/v0.2"
 __prettyname__ = "Stackoverflow"
 __version__ = "0.1"
 __trigger__ = ".so "
