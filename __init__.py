@@ -3,14 +3,15 @@ import time
 
 import json
 import requests
-from albertv0 import *
+from albert import *
 from os import path
 
 __iid__ = "PythonInterface/v0.2"
+__title__ = "Stackoverflow"
 __prettyname__ = "Stackoverflow"
-__version__ = "0.1"
-__trigger__ = ".so "
-__author__ = "Bharat kalluri"
+__version__ = "0.0.1"
+__triggers__ = ".so "
+__authors__ = "Bharat kalluri"
 __dependencies__ = ["requests"]
 
 stackoverflow_api = "https://api.stackexchange.com/2.2/search/advanced?pagesize=20&order=desc&sort=relevance&q={}" \
